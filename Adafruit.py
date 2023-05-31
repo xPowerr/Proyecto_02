@@ -111,3 +111,4 @@ client.loop_blocking()
 while True:
     run_count = ser.readline()
     print(run_count)
+    time.sleep(3)
