@@ -1005,8 +1005,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e :U 162 ]
 "124
-[; ;newmain.c: 124:         if (RCREG == 'd'){
-[e $ ! == -> _RCREG `ui -> 100 `ui 163  ]
+[; ;newmain.c: 124:         if (RCREG == '1'){
+[e $ ! == -> _RCREG `ui -> 49 `ui 163  ]
 {
 "125
 [; ;newmain.c: 125:             if (x == 255){
@@ -1040,8 +1040,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e :U 163 ]
 "133
-[; ;newmain.c: 133:         if (RCREG == 'a'){
-[e $ ! == -> _RCREG `ui -> 97 `ui 166  ]
+[; ;newmain.c: 133:         if (RCREG == '2'){
+[e $ ! == -> _RCREG `ui -> 50 `ui 166  ]
 {
 "134
 [; ;newmain.c: 134:             if (x == 255){
@@ -1066,8 +1066,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e :U 166 ]
 "140
-[; ;newmain.c: 140:         if (RCREG == 'w'){
-[e $ ! == -> _RCREG `ui -> 119 `ui 168  ]
+[; ;newmain.c: 140:         if (RCREG == '3'){
+[e $ ! == -> _RCREG `ui -> 51 `ui 168  ]
 {
 "141
 [; ;newmain.c: 141:             if (y == 255){
@@ -1101,8 +1101,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e :U 168 ]
 "149
-[; ;newmain.c: 149:         if (RCREG == 's'){
-[e $ ! == -> _RCREG `ui -> 115 `ui 171  ]
+[; ;newmain.c: 149:         if (RCREG == '4'){
+[e $ ! == -> _RCREG `ui -> 52 `ui 171  ]
 {
 "150
 [; ;newmain.c: 150:             if (y == 255){
@@ -1127,8 +1127,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e :U 171 ]
 "157
-[; ;newmain.c: 157:         if (RCREG == 'i'){
-[e $ ! == -> _RCREG `ui -> 105 `ui 173  ]
+[; ;newmain.c: 157:         if (RCREG == '5'){
+[e $ ! == -> _RCREG `ui -> 53 `ui 173  ]
 {
 "158
 [; ;newmain.c: 158:             if (x1 == 255){
@@ -1162,8 +1162,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e :U 173 ]
 "166
-[; ;newmain.c: 166:         if (RCREG == 'k'){
-[e $ ! == -> _RCREG `ui -> 107 `ui 176  ]
+[; ;newmain.c: 166:         if (RCREG == '6'){
+[e $ ! == -> _RCREG `ui -> 54 `ui 176  ]
 {
 "167
 [; ;newmain.c: 167:             if (x1 == 255){
@@ -1188,8 +1188,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e :U 176 ]
 "174
-[; ;newmain.c: 174:         if (RCREG == 'l'){
-[e $ ! == -> _RCREG `ui -> 108 `ui 178  ]
+[; ;newmain.c: 174:         if (RCREG == '7'){
+[e $ ! == -> _RCREG `ui -> 55 `ui 178  ]
 {
 "175
 [; ;newmain.c: 175:             if (y1 == 255){
@@ -1223,8 +1223,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e :U 178 ]
 "183
-[; ;newmain.c: 183:         if (RCREG == 'j'){
-[e $ ! == -> _RCREG `ui -> 106 `ui 181  ]
+[; ;newmain.c: 183:         if (RCREG == '8'){
+[e $ ! == -> _RCREG `ui -> 56 `ui 181  ]
 {
 "184
 [; ;newmain.c: 184:             if (y1 == 255){

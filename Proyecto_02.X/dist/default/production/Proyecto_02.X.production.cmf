@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.o
+$C:\Users\Gabriel\AppData\Local\Temp\xcAssos.o
 idloc IDLOC 5 2000 2000 4 2 1
 reset_vec CODE 0 0 0 3 2 1
 end_init CODE 0 10 10 3 2 1
@@ -86,36 +86,36 @@ STRING 7CA-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Proyecto_02.X.production.o
-13 cinit CODE >728:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-13 cinit CODE >731:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-13 cinit CODE >814:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-14 cinit CODE >815:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-15 cinit CODE >816:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-16 cinit CODE >817:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-17 cinit CODE >818:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-18 cinit CODE >819:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-19 cinit CODE >820:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-1A cinit CODE >821:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-1B cinit CODE >822:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-1C cinit CODE >823:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-21 cinit CODE >827:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-22 cinit CODE >828:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-23 cinit CODE >829:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-24 cinit CODE >830:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-25 cinit CODE >831:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-26 cinit CODE >832:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-27 cinit CODE >833:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-28 cinit CODE >834:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-29 cinit CODE >835:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-2A cinit CODE >836:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-2B cinit CODE >837:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-2C cinit CODE >838:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-2D cinit CODE >839:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-2E cinit CODE >840:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-2F cinit CODE >843:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-30 cinit CODE >849:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-30 cinit CODE >851:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-31 cinit CODE >852:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
+13 cinit CODE >728:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+13 cinit CODE >731:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+13 cinit CODE >814:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+14 cinit CODE >815:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+15 cinit CODE >816:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+16 cinit CODE >817:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+17 cinit CODE >818:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+18 cinit CODE >819:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+19 cinit CODE >820:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+1A cinit CODE >821:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+1B cinit CODE >822:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+1C cinit CODE >823:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+21 cinit CODE >827:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+22 cinit CODE >828:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+23 cinit CODE >829:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+24 cinit CODE >830:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+25 cinit CODE >831:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+26 cinit CODE >832:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+27 cinit CODE >833:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+28 cinit CODE >834:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+29 cinit CODE >835:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+2A cinit CODE >836:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+2B cinit CODE >837:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+2C cinit CODE >838:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+2D cinit CODE >839:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+2E cinit CODE >840:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+2F cinit CODE >843:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+30 cinit CODE >849:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+30 cinit CODE >851:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+31 cinit CODE >852:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
 4 intentry CODE >60:C:\Users\Gabriel\OneDrive - Universidad del Valle de Guatemala\Documentos\Universidad\Quinto Semestre\Tareas\Programación de Microcontroladores\Proyectos\Proyecto_02\Proyecto_02.X\newmain.c
 7B9 text12 CODE >543:C:\Users\Gabriel\OneDrive - Universidad del Valle de Guatemala\Documentos\Universidad\Quinto Semestre\Tareas\Programación de Microcontroladores\Proyectos\Proyecto_02\Proyecto_02.X\newmain.c
 7B9 text12 CODE >544:C:\Users\Gabriel\OneDrive - Universidad del Valle de Guatemala\Documentos\Universidad\Quinto Semestre\Tareas\Programación de Microcontroladores\Proyectos\Proyecto_02\Proyecto_02.X\newmain.c
@@ -553,23 +553,23 @@ FE maintext CODE >249:C:\Users\Gabriel\OneDrive - Universidad del Valle de Guate
 32F maintext CODE >375:C:\Users\Gabriel\OneDrive - Universidad del Valle de Guatemala\Documentos\Universidad\Quinto Semestre\Tareas\Programación de Microcontroladores\Proyectos\Proyecto_02\Proyecto_02.X\newmain.c
 330 maintext CODE >376:C:\Users\Gabriel\OneDrive - Universidad del Valle de Guatemala\Documentos\Universidad\Quinto Semestre\Tareas\Programación de Microcontroladores\Proyectos\Proyecto_02\Proyecto_02.X\newmain.c
 331 maintext CODE >377:C:\Users\Gabriel\OneDrive - Universidad del Valle de Guatemala\Documentos\Universidad\Quinto Semestre\Tareas\Programación de Microcontroladores\Proyectos\Proyecto_02\Proyecto_02.X\newmain.c
-794 inittext CODE >788:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-794 inittext CODE >789:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-795 inittext CODE >790:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-796 inittext CODE >791:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-797 inittext CODE >792:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-798 inittext CODE >799:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-798 inittext CODE >800:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-79D inittext CODE >801:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-79E inittext CODE >802:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-79F inittext CODE >803:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-7A0 inittext CODE >804:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-7A1 inittext CODE >805:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-7A2 inittext CODE >806:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-7A3 inittext CODE >807:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-7A4 inittext CODE >808:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-7A5 inittext CODE >809:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
-7A6 inittext CODE >810:C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.s
+794 inittext CODE >788:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+794 inittext CODE >789:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+795 inittext CODE >790:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+796 inittext CODE >791:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+797 inittext CODE >792:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+798 inittext CODE >799:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+798 inittext CODE >800:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+79D inittext CODE >801:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+79E inittext CODE >802:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+79F inittext CODE >803:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+7A0 inittext CODE >804:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+7A1 inittext CODE >805:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+7A2 inittext CODE >806:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+7A3 inittext CODE >807:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+7A4 inittext CODE >808:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+7A5 inittext CODE >809:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
+7A6 inittext CODE >810:C:\Users\Gabriel\AppData\Local\Temp\xcAssos.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -601,25 +601,25 @@ _y1 5E 0 BANK0 1 bssBANK0 dist/default/production\Proyecto_02.X.production.o
 ?_map 47 0 BANK0 1 cstackBANK0 dist/default/production\Proyecto_02.X.production.o
 __Hstrings 0 0 ABS 0 strings -
 _TMR0 1 0 ABS 0 - dist/default/production\Proyecto_02.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.o
+___sp 0 0 STACK 2 stack C:\Users\Gabriel\AppData\Local\Temp\xcAssos.o
 _dato 7D 0 COMMON 1 bssCOMMON dist/default/production\Proyecto_02.X.production.o
 _loop 58 0 BANK0 1 bssBANK0 dist/default/production\Proyecto_02.X.production.o
 _main 68 0 CODE 0 maintext dist/default/production\Proyecto_02.X.production.o
 _pot1 54 0 BANK0 1 bssBANK0 dist/default/production\Proyecto_02.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\Proyecto_02.X.production.o
-start 20 0 CODE 0 init C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.o
+start 20 0 CODE 0 init C:\Users\Gabriel\AppData\Local\Temp\xcAssos.o
 __HbssCOMMON 0 0 ABS 0 bssCOMMON -
 ?___wmul 70 0 COMMON 1 cstackCOMMON dist/default/production\Proyecto_02.X.production.o
 _OPTION_REGbits 81 0 ABS 0 - dist/default/production\Proyecto_02.X.production.o
 __LidataBANK0 0 0 ABS 0 idataBANK0 -
 __Hpowerup 0 0 CODE 0 powerup -
 cadena@cursor A1 0 BANK1 1 cstackBANK1 dist/default/production\Proyecto_02.X.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Gabriel\AppData\Local\Temp\xcAssos.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Gabriel\AppData\Local\Temp\xcAssos.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Gabriel\AppData\Local\Temp\xcAssos.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Gabriel\AppData\Local\Temp\xcAssos.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Gabriel\AppData\Local\Temp\xcAssos.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Gabriel\AppData\Local\Temp\xcAssos.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 _OSCCONbits 8F 0 ABS 0 - dist/default/production\Proyecto_02.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\Proyecto_02.X.production.o
@@ -645,8 +645,8 @@ ___awdiv@divisor 76 0 COMMON 1 cstackCOMMON dist/default/production\Proyecto_02.
 __end_of___awdiv C68 0 CODE 0 text11 dist/default/production\Proyecto_02.X.production.o
 __end_of_cadena DA8 0 CODE 0 text7 dist/default/production\Proyecto_02.X.production.o
 delay@micro 70 0 COMMON 1 cstackCOMMON dist/default/production\Proyecto_02.X.production.o
-___stackhi 0 0 ABS 0 - C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.o
-___stacklo 0 0 ABS 0 - C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.o
+___stackhi 0 0 ABS 0 - C:\Users\Gabriel\AppData\Local\Temp\xcAssos.o
+___stacklo 0 0 ABS 0 - C:\Users\Gabriel\AppData\Local\Temp\xcAssos.o
 _BAUDCTLbits 187 0 ABS 0 - dist/default/production\Proyecto_02.X.production.o
 writeEEPROM@data A0 0 BANK1 1 cstackBANK1 dist/default/production\Proyecto_02.X.production.o
 _WPUBbits 95 0 ABS 0 - dist/default/production\Proyecto_02.X.production.o
@@ -657,7 +657,7 @@ map@value 7C 0 COMMON 1 cstackCOMMON dist/default/production\Proyecto_02.X.produ
 _SPBRGH 9A 0 ABS 0 - dist/default/production\Proyecto_02.X.production.o
 __pcstackBANK0 43 0 BANK0 1 cstackBANK0 dist/default/production\Proyecto_02.X.production.o
 __pcstackBANK1 A0 0 BANK1 1 cstackBANK1 dist/default/production\Proyecto_02.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.o
+___int_sp 0 0 STACK 2 stack C:\Users\Gabriel\AppData\Local\Temp\xcAssos.o
 _readEEPROM F4E 0 CODE 0 text6 dist/default/production\Proyecto_02.X.production.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
@@ -718,7 +718,7 @@ __end_of_map D58 0 CODE 0 text9 dist/default/production\Proyecto_02.X.production
 __end_of_writeEEPROM DF4 0 CODE 0 text1 dist/default/production\Proyecto_02.X.production.o
 __Lintentry 8 0 CODE 0 intentry -
 __stringtab A98 0 STRING 0 strings dist/default/production\Proyecto_02.X.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Gabriel\AppData\Local\Temp\xcAsukc.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Gabriel\AppData\Local\Temp\xcAssos.o
 __pdataBANK0 20 0 BANK0 1 dataBANK0 dist/default/production\Proyecto_02.X.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
 _RCSTAbits 18 0 ABS 0 - dist/default/production\Proyecto_02.X.production.o

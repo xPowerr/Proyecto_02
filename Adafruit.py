@@ -27,7 +27,7 @@ FEED_ID7 = 'servo3b'
 FEED_ID8 = 'servo4b'
 #response = aio.create_feed(feed)
 
-ser = serial.Serial('COM3')
+ser = serial.Serial('COM3', 9600, timeout=(1))
 print(ser.name)
 
 # Define callback functions which will be called when certain events happen.
@@ -66,31 +66,56 @@ def message(client, feed_id, payload):
         if (payload == '2'):
             ser.write(bytes('x','utf-8'))
         if (payload == '3'):
-            ser.write(bytes('c','utf-8')) 
-    if (feed_id == 'servo1'):
-        if(payload == '1'):
-            ser.write(bytes('d','utf-8'))
-    if (feed_id == 'servo1b'):
-        if(payload == '1'):
-            ser.write(bytes('a','utf-8'))
-    if (feed_id == 'servo2'):
-        if(payload == '1'):
-            ser.write(bytes('w','utf-8'))
-    if (feed_id == 'servo2b'):
-        if(payload == '1'):
-            ser.write(bytes('s','utf-8'))
-    if (feed_id == 'servo3'):
-        if(payload == '1'):
-            ser.write(bytes('l','utf-8'))
-    if (feed_id == 'servo3b'):
-        if(payload == '1'):
-            ser.write(bytes('j','utf-8'))
-    if (feed_id == 'servo4'):
-        if(payload == '1'):
-            ser.write(bytes('i','utf-8'))
-    if (feed_id == 'servo4b'):
-        if(payload == '1'):
-            ser.write(bytes('k','utf-8')) 
+            ser.write(bytes('c','utf-8'))
+        if (payload == '4'):
+            ser.write(bytes('v','utf-8'))
+    #if (feed_id == 'servo1'):
+        #if(payload == '1'):
+            #ser.write(bytes('d','utf-8'))
+    #if (feed_id == 'servo1b'):
+        #if(payload == '1'):
+            #ser.write(bytes('a','utf-8'))
+    #if (feed_id == 'servo2'):
+        #if(payload == '1'):
+            #ser.write(bytes('w','utf-8'))
+    #if (feed_id == 'servo2b'):
+        #if(payload == '1'):
+            #ser.write(bytes('s','utf-8'))
+    #if (feed_id == 'servo3'):
+        #if(payload == '1'):
+            #ser.write(bytes('l','utf-8'))
+    #if (feed_id == 'servo3b'):
+        #if(payload == '1'):
+            #ser.write(bytes('j','utf-8'))
+    #if (feed_id == 'servo4'):
+        #if(payload == '1'):
+            #ser.write(bytes('i','utf-8'))
+    #if (feed_id == 'servo4b'):
+        #if(payload == '1'):
+            #ser.write(bytes('k','utf-8')) 
+
+    else:
+        ser.write(bytes(str(payload), 'utf-8')) # Convert the payload to bytes and write it to the serial
+        #if(payload == '1'):
+            #ser.write(bytes('d','utf-8'))
+        #if(payload == '2'):
+            #ser.write(bytes('a','utf-8'))
+        #if(payload == '3'):
+            #ser.write(bytes('w','utf-8'))
+        #if(payload == '4'):
+            #ser.write(bytes('s','utf-8'))
+        #if(payload == '5'):
+            #ser.write(bytes('i','utf-8'))
+        #if(payload == '6'):
+            #ser.write(bytes('k','utf-8'))
+        #if(payload == '7'):
+            #ser.write(bytes('j','utf-8'))
+        #if(payload == '8'):
+            #ser.write(bytes('l','utf-8'))
+    
+    #int_payload = int.from_bytes(payload, "big") # Convertir el byte a un entero
+
+    
 
 # Create an MQTT client instance.
 client = MQTTClient(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
@@ -111,4 +136,4 @@ client.loop_blocking()
 while True:
     run_count = ser.readline()
     print(run_count)
-    time.sleep(3)
+    #time.sleep(3)

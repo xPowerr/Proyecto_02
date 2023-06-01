@@ -2965,7 +2965,7 @@ void __attribute__((picinterrupt(("")))) isr(void){
             loop = 0;
             PIR1bits.RCIF = 0;
         }
-        if (RCREG == 'd'){
+        if (RCREG == '1'){
             if (x == 255){
                 x = 0;}
             if (x == 17){
@@ -2974,14 +2974,14 @@ void __attribute__((picinterrupt(("")))) isr(void){
             x++;
             PIR1bits.RCIF = 0;
         }
-        if (RCREG == 'a'){
+        if (RCREG == '2'){
             if (x == 255){
                 x = 0;}
             CCPR1L = servo[x];
             x--;
             PIR1bits.RCIF = 0;
         }
-        if (RCREG == 'w'){
+        if (RCREG == '3'){
             if (y == 255){
                 y = 0;}
             if (y == 17){
@@ -2990,7 +2990,7 @@ void __attribute__((picinterrupt(("")))) isr(void){
             y++;
             PIR1bits.RCIF = 0;
         }
-        if (RCREG == 's'){
+        if (RCREG == '4'){
             if (y == 255){
                 y = 0;}
             CCPR2L = servo[y];
@@ -2998,7 +2998,7 @@ void __attribute__((picinterrupt(("")))) isr(void){
             PIR1bits.RCIF = 0;
         }
 
-        if (RCREG == 'i'){
+        if (RCREG == '5'){
             if (x1 == 255){
                 x1 = 0;}
             if (x1 == 16){
@@ -3007,7 +3007,7 @@ void __attribute__((picinterrupt(("")))) isr(void){
             x1++;
             PIR1bits.RCIF = 0;
         }
-        if (RCREG == 'k'){
+        if (RCREG == '6'){
             if (x1 == 255){
                 x1 = 0;}
             pot = servo2[x1];
@@ -3015,7 +3015,7 @@ void __attribute__((picinterrupt(("")))) isr(void){
             PIR1bits.RCIF = 0;
         }
 
-        if (RCREG == 'l'){
+        if (RCREG == '7'){
             if (y1 == 255){
                 y1 = 0;}
             if (y1 == 16){
@@ -3024,7 +3024,7 @@ void __attribute__((picinterrupt(("")))) isr(void){
             y1++;
             PIR1bits.RCIF = 0;
         }
-        if (RCREG == 'j'){
+        if (RCREG == '8'){
             if (y1 == 255){
                 y1 = 0;}
             pot1 = servo2[y1];

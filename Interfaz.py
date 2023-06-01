@@ -119,28 +119,28 @@ class MainWindow(QMainWindow):
         #self.setPalette(palette)
 
     def send_w(self):
-        self.serial.write(b'w')
+        self.serial.write(b'3')
 
     def send_a(self):
-        self.serial.write(b'a')
+        self.serial.write(b'2')
 
     def send_s(self):
-        self.serial.write(b's')
+        self.serial.write(b'4')
 
     def send_d(self):
-        self.serial.write(b'd')
+        self.serial.write(b'1')
 
     def send_i(self):
-        self.serial.write(b'i')
+        self.serial.write(b'5')
 
     def send_j(self):
-        self.serial.write(b'j')
+        self.serial.write(b'8')
 
     def send_k(self):
-        self.serial.write(b'k')
+        self.serial.write(b'6')
 
     def send_l(self):
-        self.serial.write(b'l')
+        self.serial.write(b'7')
 
     def send_z(self):
         self.serial.write(b'z')

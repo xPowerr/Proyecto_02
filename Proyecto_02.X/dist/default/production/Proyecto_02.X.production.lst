@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.40 build 20220703182018 
-                                                                                               Tue May 30 16:04:15 2023
+                                                                                               Wed May 31 12:18:45 2023
 
 Microchip MPLAB XC8 C Compiler v2.40 (Free license) build 20220703182018 Og1 
      1                           	processor	16F887
@@ -3190,8 +3190,8 @@ Microchip MPLAB XC8 C Compiler v2.40 (Free license) build 20220703182018 Og1
   3175     045E  128C               	bcf	12,5	;volatile
   3176     045F                     i1l1875:
   3177                           
-  3178                           ;newmain.c: 124:         if (RCREG == 'd'){
-  3179     045F  3064               	movlw	100
+  3178                           ;newmain.c: 124:         if (RCREG == '1'){
+  3179     045F  3031               	movlw	49
   3180     0460  061A               	xorwf	26,w	;volatile
   3181     0461  1D03               	btfss	3,2
   3182     0462  2C64               	goto	u132_21
@@ -3251,8 +3251,8 @@ Microchip MPLAB XC8 C Compiler v2.40 (Free license) build 20220703182018 Og1
   3236     047D  128C               	bcf	12,5	;volatile
   3237     047E                     i1l1891:
   3238                           
-  3239                           ;newmain.c: 133:         if (RCREG == 'a'){
-  3240     047E  3061               	movlw	97
+  3239                           ;newmain.c: 133:         if (RCREG == '2'){
+  3240     047E  3032               	movlw	50
   3241     047F  061A               	xorwf	26,w	;volatile
   3242     0480  1D03               	btfss	3,2
   3243     0481  2C83               	goto	u135_21
@@ -3294,8 +3294,8 @@ Microchip MPLAB XC8 C Compiler v2.40 (Free license) build 20220703182018 Og1
   3279     0492  128C               	bcf	12,5	;volatile
   3280     0493                     i1l1903:
   3281                           
-  3282                           ;newmain.c: 140:         if (RCREG == 'w'){
-  3283     0493  3077               	movlw	119
+  3282                           ;newmain.c: 140:         if (RCREG == '3'){
+  3283     0493  3033               	movlw	51
   3284     0494  061A               	xorwf	26,w	;volatile
   3285     0495  1D03               	btfss	3,2
   3286     0496  2C98               	goto	u137_21
@@ -3355,8 +3355,8 @@ Microchip MPLAB XC8 C Compiler v2.40 (Free license) build 20220703182018 Og1
   3340     04B1  128C               	bcf	12,5	;volatile
   3341     04B2                     i1l1919:
   3342                           
-  3343                           ;newmain.c: 149:         if (RCREG == 's'){
-  3344     04B2  3073               	movlw	115
+  3343                           ;newmain.c: 149:         if (RCREG == '4'){
+  3344     04B2  3034               	movlw	52
   3345     04B3  061A               	xorwf	26,w	;volatile
   3346     04B4  1D03               	btfss	3,2
   3347     04B5  2CB7               	goto	u140_21
@@ -3398,8 +3398,8 @@ Microchip MPLAB XC8 C Compiler v2.40 (Free license) build 20220703182018 Og1
   3383     04C6  128C               	bcf	12,5	;volatile
   3384     04C7                     i1l1931:
   3385                           
-  3386                           ;newmain.c: 157:         if (RCREG == 'i'){
-  3387     04C7  3069               	movlw	105
+  3386                           ;newmain.c: 157:         if (RCREG == '5'){
+  3387     04C7  3035               	movlw	53
   3388     04C8  061A               	xorwf	26,w	;volatile
   3389     04C9  1D03               	btfss	3,2
   3390     04CA  2CCC               	goto	u142_21
@@ -3464,8 +3464,8 @@ Microchip MPLAB XC8 C Compiler v2.40 (Free license) build 20220703182018 Og1
   3449     04EA  128C               	bcf	12,5	;volatile
   3450     04EB                     i1l1947:
   3451                           
-  3452                           ;newmain.c: 166:         if (RCREG == 'k'){
-  3453     04EB  306B               	movlw	107
+  3452                           ;newmain.c: 166:         if (RCREG == '6'){
+  3453     04EB  3036               	movlw	54
   3454     04EC  061A               	xorwf	26,w	;volatile
   3455     04ED  1D03               	btfss	3,2
   3456     04EE  2CF0               	goto	u145_21
@@ -3512,8 +3512,8 @@ Microchip MPLAB XC8 C Compiler v2.40 (Free license) build 20220703182018 Og1
   3497     0504  128C               	bcf	12,5	;volatile
   3498     0505                     i1l1959:
   3499                           
-  3500                           ;newmain.c: 174:         if (RCREG == 'l'){
-  3501     0505  306C               	movlw	108
+  3500                           ;newmain.c: 174:         if (RCREG == '7'){
+  3501     0505  3037               	movlw	55
   3502     0506  061A               	xorwf	26,w	;volatile
   3503     0507  1D03               	btfss	3,2
   3504     0508  2D0A               	goto	u147_21
@@ -3578,8 +3578,8 @@ Microchip MPLAB XC8 C Compiler v2.40 (Free license) build 20220703182018 Og1
   3563     0528  128C               	bcf	12,5	;volatile
   3564     0529                     i1l1975:
   3565                           
-  3566                           ;newmain.c: 183:         if (RCREG == 'j'){
-  3567     0529  306A               	movlw	106
+  3566                           ;newmain.c: 183:         if (RCREG == '8'){
+  3567     0529  3038               	movlw	56
   3568     052A  061A               	xorwf	26,w	;volatile
   3569     052B  1D03               	btfss	3,2
   3570     052C  2D2E               	goto	u150_21
@@ -4332,7 +4332,7 @@ EEDATA             100      0       0       0        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.40 build 20220703182018 
-Symbol Table                                                                                   Tue May 30 16:04:15 2023
+Symbol Table                                                                                   Wed May 31 12:18:45 2023
 
                       _x 0061                        _y 0060                        pc 0002  
             map@inputmax 0049              map@inputmin 0047                       _RD 0C60  

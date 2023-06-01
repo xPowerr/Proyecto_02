@@ -121,7 +121,7 @@ void __interrupt() isr(void){
             loop = 0; //sacar del loop
             PIR1bits.RCIF = 0; //limpiar bandera
         }
-        if (RCREG == 'd'){ //revisar si se recibio un d
+        if (RCREG == '1'){ //revisar si se recibio un d
             if (x == 255){ //si la posicion del servo es 255 
                 x = 0;} //igual a cero
             if (x == 17){ //si llego al máximo regresar uno
@@ -130,14 +130,14 @@ void __interrupt() isr(void){
             x++; //aumentar la posicion
             PIR1bits.RCIF = 0; //limpiar bandera
         }
-        if (RCREG == 'a'){ //revisar si se recibio un a
+        if (RCREG == '2'){ //revisar si se recibio un a
             if (x == 255){ //si la posicion del servo es 255 
                 x = 0;} //igual a cero
             CCPR1L = servo[x]; //mandar posicion
             x--; //decrementar la posicion
             PIR1bits.RCIF = 0; //limpiar bandera
         }
-        if (RCREG == 'w'){ //revisar si se recibio un w
+        if (RCREG == '3'){ //revisar si se recibio un w
             if (y == 255){ //si la posicion del servo es 255 
                 y = 0;} //igual a cero
             if (y == 17){ //si llego al máximo regresar uno
@@ -146,7 +146,7 @@ void __interrupt() isr(void){
             y++; //aumentar la posicion
             PIR1bits.RCIF = 0; //limpiar bandera
         }
-        if (RCREG == 's'){ //revisar si se recibio un s
+        if (RCREG == '4'){ //revisar si se recibio un s
             if (y == 255){ //si la posicion del servo es 255 
                 y = 0;} //igual a cero
             CCPR2L = servo[y]; //mandar posicion al servo
@@ -154,7 +154,7 @@ void __interrupt() isr(void){
             PIR1bits.RCIF = 0; //limpiar bandera
         }
         
-        if (RCREG == 'i'){ //revisar si se recibio un i
+        if (RCREG == '5'){ //revisar si se recibio un i
             if (x1 == 255){  //si la posicion del servo es 255 
                 x1 = 0;} //igual a cero
             if (x1 == 16){ //si llego al máximo regresar uno
@@ -163,7 +163,7 @@ void __interrupt() isr(void){
             x1++; //aumentar la posicion
             PIR1bits.RCIF = 0; //limpiar
         }
-        if (RCREG == 'k'){ //revisar si se recibio un k
+        if (RCREG == '6'){ //revisar si se recibio un k
             if (x1 == 255){ //si la posicion del servo es 255 
                 x1 = 0;} //igual a cero
             pot = servo2[x1]; //mandar posicion al servo
@@ -171,7 +171,7 @@ void __interrupt() isr(void){
             PIR1bits.RCIF = 0; //limpiar bandera
         }
         
-        if (RCREG == 'l'){ //revisar si se recibio un l
+        if (RCREG == '7'){ //revisar si se recibio un l
             if (y1 == 255){ //si la posicion del servo es 255
                 y1 = 0;} //igual a cero
             if (y1 == 16){ //si llego al máximo regresar uno
@@ -180,7 +180,7 @@ void __interrupt() isr(void){
             y1++; //aumentar la posicion
             PIR1bits.RCIF = 0; //limpiar bandera
         }
-        if (RCREG == 'j'){ //revisar si se recibio un j
+        if (RCREG == '8'){ //revisar si se recibio un j
             if (y1 == 255){ //si la posicion del servo es 255
                 y1 = 0;} //igual a cero
             pot1 = servo2[y1]; //mandar posicion al servo
